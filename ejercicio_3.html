@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+        }
+
+        .paises{
+            width:80%;
+            margin: 0 auto;
+        }
+
+        .nombre-pais{
+            float:left;
+            width:50%;
+        }
+
+        .box{
+            border: 2px solid #808080;
+            height: 200px;
+            width: 40%;
+            margin: 15px;
+            box-sizing: border-box;
+            float:left;
+        }
+
+        /*ESPAÑA*/
+        .espana-rojo{
+            width: 100%;
+            height: 50px;
+            background-color:red;
+        }
+
+        .espana-amarillo{
+            width:100%;
+            height: 100px;
+            background-color:yellow;
+        }
+
+        /*EMIRATOS ÁRABES*/
+        .emi-rojo{
+            width:25%;
+            height:100%;
+            background-color:red;
+            float:left;
+        }
+
+        .emi-verde{
+            width:100%;
+            height:33%;
+            background-color:green;
+        }
+
+        .emi-blanco{
+            width:100%;
+            height:33%;
+            background-color:white;
+        }
+
+        .emi-negro{
+            width:100%;
+            height:34%;
+            background-color:black;
+        }
+
+        /*DINAMARCA*/
+        .din-rojo{
+            width: 100%;
+            height: 100%;
+            background-color:red;
+        }
+
+        .din-blanco1{
+            width: 20px;
+            height: 200px;
+            background-color:white;
+            margin-left: 4.5rem;
+            position:absolute;
+            z-index:10;
+        }
+
+        .din-blanco2{
+            width: 100%;
+            height: 20px;
+            background-color:white;
+            margin-top: 5.5rem;
+            position:absolute;
+            z-index:15;
+        }
+    
+        /*JAPON*/
+        .jap-rojo{
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            border-radius: 50px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="paises">
+        <!--ESPAÑA-->
+            <div class="box">
+                <div class="espana-rojo"></div>
+                <div class="espana-amarillo"></div>
+                <div class="espana-rojo"></div>
+            </div>
+
+        <!--DINAMARCA-->
+            <div class="box">
+                <div class="din-blanco1"></div>
+                <div class="din-blanco2"></div>
+                <div class="din-rojo"></div>
+            </div>
+            <span class="nombre-pais">España</span><span class="nombre-pais">Dinamarca</span>
+
+        <!--EMIRATOS-->
+            <div class="box">
+                <div class="emi-rojo"></div>
+                <div class="emi-verde"></div>
+                <div class="emi-blanco"></div>
+                <div class="emi-negro"></div>
+            </div>
+            
+        <!--JAPON-->
+            <div class="box">
+                <div class="jap-rojo"></div>
+            </div>
+            <span class="nombre-pais">Emiratos Árabes</span><span class="nombre-pais">Japón</span>
+    </section>
+</body>
+</html>
